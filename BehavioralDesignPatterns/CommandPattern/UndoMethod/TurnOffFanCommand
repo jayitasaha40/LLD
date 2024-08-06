@@ -1,0 +1,18 @@
+public class TurnOffFanCommand implements ICommand
+{
+    Fan fan;
+    
+    public TurnOffFanCommand(Fan fan){
+        this.fan = fan;
+    }
+
+    @Override
+    public void exeute() {
+        this.fan.turnOff();
+    }
+
+    @Override
+    public void undo() {
+        this.fan.turnOn();
+    }
+}
