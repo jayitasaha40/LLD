@@ -82,7 +82,6 @@ The repository is neatly organized into three main categories of design patterns
 
 ## 📌 References
 
-- *Design Patterns: Elements of Reusable Object-Oriented Software* by Erich Gamma et al.
 - Online resources and documentation from reputable software engineering platforms.
 
 ---
